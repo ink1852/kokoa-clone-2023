@@ -1,3 +1,3 @@
 # kokoa clone coding 2023
 
-이번엔 제에에발 좀 잘 작동해보자...
+good works!!
