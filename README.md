@@ -1,3 +1,3 @@
 # kokoa clone coding 2023
 
-HTML, CSS let's go.
+이번엔 제에에발 좀 잘 작동해보자...
