@@ -1,3 +1,3 @@
 # kokoa clone coding 2023
 
-CSS는 최고다!
+HTML, CSS let's go.
