@@ -12,6 +12,7 @@
     margin-right: 5px;
 }
 .status-bar__column:nth-child(2){
+   font-weight: 600;
    justify-content: center;
 }
 .status-bar__column:nth-child(3){
