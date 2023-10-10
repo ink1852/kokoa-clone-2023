@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <link rel="stylesheet" href="CSS/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Kokoa Talk</title>
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fa-solid fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-         <span>18:43</span>
+        <span>18:43</span>
       </div>
       <div class="status-bar__column">
-         <span>11%</span>
-         <i class="fa-solid fa-battery-three-quarters"></i>
-         <i class="fa-solid fa-bolt-lightning"></i>
+        <span>110%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-xl"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
       </div>
     </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Talk</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Account, log in with email or phone number.
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number"/>
+      <input type="password" placeholder="password"/>
+      <button>Log in</button>
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
     <script src="https://kit.fontawesome.com/e6fb3651a0.js" crossorigin="anonymous"></script>
 </body>
 </html>
