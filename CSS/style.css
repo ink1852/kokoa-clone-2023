@@ -4,9 +4,11 @@
 
 /* Compoenents */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* Screen */
 @import "screen/login.css";
 body{
+    height: 1000vh;
     font-family: 'Noto Sans', sans-serif;
 }
