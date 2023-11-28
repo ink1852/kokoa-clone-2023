@@ -5,10 +5,13 @@
 /* Compoenents */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* Screen */
 @import "screen/login.css";
+@import "screen/friends.css";
+
 body{
-    height: 1000vh;
+    height: 100vh;
     font-family: 'Noto Sans', sans-serif;
 }
