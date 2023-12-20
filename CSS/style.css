@@ -6,6 +6,7 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screen */
 @import "screen/login.css";
@@ -14,4 +15,7 @@
 body{
     height: 100vh;
     font-family: 'Noto Sans', sans-serif;
+}
+.main-screen{
+    padding: 0px var(--horizontal-space);
 }
