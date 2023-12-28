@@ -3,10 +3,12 @@
 @import "variables.css";
 
 /* Compoenents */
+@import "components/red-point.css";
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screen */
 @import "screen/login.css";

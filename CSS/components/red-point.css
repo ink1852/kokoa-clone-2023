@@ -1,0 +1,14 @@
+.red-dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+}
+.screen-dot{
+    top: -5px;
+}
+.nav__notification-dot{
+    left: 20px;
+    top: 0px;
+}

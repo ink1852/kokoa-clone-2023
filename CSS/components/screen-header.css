@@ -3,11 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 18px;
+    margin-bottom: 25px;
 }
 .screen-header__title{
     font-size: 25px;
     font-weight: 800;
+}
+.screen-header__icons{
+    position: relative;
 }
 .screen-header__icons i{
     margin-left: 20px;
