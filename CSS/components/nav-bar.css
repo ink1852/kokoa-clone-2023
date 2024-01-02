@@ -5,7 +5,7 @@
     box-sizing: border-box;
     padding: 15px 35px;
     background-color: rgb(245, 245, 245);
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: var(--border);
 }
 .nav__list{
     display: flex;

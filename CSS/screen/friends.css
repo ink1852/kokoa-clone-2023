@@ -8,11 +8,11 @@
 }
 #friends-display-link i{
     margin-right: 2px;
-    color: rgba(0, 0, 0, 0.2);
+    color: var(--grey-color-0350);
 }
 #friends-display-link i:last-child{
     margin-left: 5px;
-    color: rgba(0, 0, 0, 0.3);
+    color: var(--grey-color-0350);
 }
 .friends-screen__channel{
     margin-top: 15px;
@@ -22,8 +22,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-    color: rgba(0, 0, 0, 0.5);
+    border-top: var(--border);
+    color: var(--grey-color-0350);
 }
 .friends-screen__channel--header span{
     font-size: 13px;

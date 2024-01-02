@@ -12,3 +12,30 @@
     left: 20px;
     top: 0px;
 }
+.badge{
+    background-color: tomato;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 600;
+}
+.nav__notification-badge{
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+}
+.red-exclaim{
+    font-size: 10px;
+    font-weight: 800;
+    padding: 0px 5px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 3px;
+}
