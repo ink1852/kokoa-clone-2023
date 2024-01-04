@@ -15,5 +15,16 @@
     position: relative;
     color: rgb(50, 50, 50);
 }
+@keyframes showBtnAnimation{
+    from{
+        transform: translateY(-10px);
+    }
+    to{
+        transform: none;
+    }
+}
+.nav__btn {
+    transform: showBtnAnimation 1s ease-in-out forwards;
+}
 
 

@@ -10,6 +10,7 @@
 @import "components/user-component.css";
 @import "components/icon-row.css";
 @import "components/menu-header.css";
+@import "components/screen-padding.css";
 
 /* Screen */
 @import "screen/login.css";
@@ -17,12 +18,15 @@
 @import "screen/find.css";
 @import "screen/more.css";
 @import "screen/settings.css";
+@import "screen/chat.css";
 
 body{
-    height: 100vh;
     font-family: 'Noto Sans', sans-serif;
+    height: 100vh;
 }
 .main-screen{
     padding: 0px var(--horizontal-space);
-    padding-bottom: 45px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
 }
+

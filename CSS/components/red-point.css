@@ -5,12 +5,19 @@
     background-color: tomato;
     position: absolute;
 }
+.nav__notification-badge{
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    animation: notificationAnimation 2s ease-in-out infinite;
+}
 .screen-dot{
     top: -5px;
 }
 .nav__notification-dot{
     left: 20px;
     top: 0px;
+
 }
 .badge{
     background-color: tomato;
@@ -24,11 +31,6 @@
     font-size: 12px;
     font-weight: 600;
 }
-.nav__notification-badge{
-    position: absolute;
-    left: 15px;
-    bottom: 10px;
-}
 .red-exclaim{
     font-size: 10px;
     font-weight: 800;
@@ -38,4 +40,15 @@
     border-radius: 50%;
     text-align: center;
     margin-left: 3px;
+}
+@keyframes notificationAnimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px) rotateY(360deg);
+    }
+    100%{
+        transform: none;
+    }
 }
