@@ -24,6 +24,7 @@
 body{
     font-family: 'Noto Sans', sans-serif;
     height: 100vh;
+    background-color: aliceblue;
 }
 .main-screen{
     padding: 0px var(--horizontal-space);

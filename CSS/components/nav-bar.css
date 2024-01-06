@@ -4,8 +4,8 @@
     width: 100%;
     box-sizing: border-box;
     padding: 15px 35px;
-    background-color: rgb(245, 245, 245);
-    border-top: var(--border);
+    background-color:var(--screen-blue);
+    border-top: 3px solid var(--screen-blue-border);
 }
 .nav__list{
     display: flex;
@@ -29,6 +29,9 @@
     animation: showBtnAnimation 0.6s ease-in-out forwards;
     transform: translateY(40px);
     opacity: 0;
+}
+.nav__btn i{
+    color: aliceblue;
 }
 .nav__btn:nth-child(2){
     animation-delay: 0.25s;

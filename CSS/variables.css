@@ -1,6 +1,8 @@
 :root{
     --yellow: #fae100;
-    --skyblue: #B4C9DA;
+    --skyblue: rgb(105, 225, 225);
+    /* --skyblue: #B4C9DA; */
+    --screen-blue: rgb(20, 55, 60);
     --horizontal-space: 20px;
     --border: 1px solid rgba(0, 0, 0, 0.2);
     --grey-color-0550: rgba(0, 0, 0, 0.550);

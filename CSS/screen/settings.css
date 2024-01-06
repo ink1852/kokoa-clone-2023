@@ -40,3 +40,7 @@
     font-weight: 600;
     float: right;
 }
+.setting-header{
+    background-color: var(--screen-blue);
+    border-bottom: 2px solid var(--screen-blue-border);
+}

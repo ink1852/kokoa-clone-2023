@@ -6,8 +6,9 @@
     position: fixed;
     width: 100vw;
     box-sizing: border-box;
-    background-color: white;
+    background-color: aliceblue;
     z-index: 2;
+    color:aliceblue;
 }
 .menu-header__title{
     font-size: 20px;
