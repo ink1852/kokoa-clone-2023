@@ -41,7 +41,12 @@
 #splash-screen{
     width: 100vw; 
     height: 100vh;
+    background-color: var(--yellow);
     position: absolute; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
     top: 0; 
     z-index: 10;
     animation: hideSplashScreen 0.4s ease-in forwards;

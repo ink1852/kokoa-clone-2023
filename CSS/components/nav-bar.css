@@ -15,16 +15,29 @@
     position: relative;
     color: rgb(50, 50, 50);
 }
+
 @keyframes showBtnAnimation{
     from{
-        transform: translateY(-10px);
+        opacity: 0;
     }
     to{
         transform: none;
+        opacity: 1;
     }
 }
-.nav__btn {
-    transform: showBtnAnimation 1s ease-in-out forwards;
+.nav__btn{
+    animation: showBtnAnimation 0.6s ease-in-out forwards;
+    transform: translateY(40px);
+    opacity: 0;
+}
+.nav__btn:nth-child(2){
+    animation-delay: 0.25s;
+}
+.nav__btn:nth-child(3){
+    animation-delay: 0.5s;
+}
+.nav__btn:last-child{
+    animation-delay: 0.75s;
 }
 
 
