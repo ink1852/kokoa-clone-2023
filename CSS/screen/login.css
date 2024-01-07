@@ -22,9 +22,10 @@
     padding: 15px 0px;
     font-size: 18px;
     margin-bottom: 25px;
+    background-color: aliceblue;
 }
 #login-form input:not([type="submit"]){
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     transition: border-color 0.3s ease-in-out;
 }
 
@@ -32,15 +33,17 @@
     margin-bottom: 25px;
 }
 #login-form input::placeholder{
-    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.3);
 }
 #login-form input:focus{
-    border-color: var(--yellow);
+    border-color: var(--screen-blue-border);
 } 
 #login-form input[type="submit"]{
-    background-color: var(--yellow);
+    background-color: var(--screen-blue);
     cursor: pointer;
     border-radius: 5px;
+    color: aliceblue;
 }
 #login-form a{
     text-align: center;
