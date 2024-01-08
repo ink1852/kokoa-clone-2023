@@ -1,3 +1,3 @@
-# kokoa clone coding 2023
+# Kokoa clone 2024 Update
 
-good works!!
+2023년에 시작해서 2024년에 끝내는 나...ㅋㅋ
